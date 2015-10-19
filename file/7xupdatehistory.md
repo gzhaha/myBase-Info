@@ -10,10 +10,10 @@
 ## Version 7.0.0 Beta-21 (Under development)
 1. Plugin: Custom search scope  
 插件：增加【搜索 -> 搜索选定范围】  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="60%" height="60%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="50%" height="50%" />
 
 2. Plugin: Custom page margin  
-插件：增加
+插件：增加【段落 -> 定制页面边距】
 
 3. Plugin: Open folder location of shortcuts  
 插件：对附件快捷方式增加"打开源文件夹"功能  
