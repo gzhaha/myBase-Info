@@ -8,17 +8,26 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**
 
 ## Version 7.0.0 Beta-21 (Under development)
-1. Plugin: Custom search scope
+1. Plugin: Custom search scope  
+插件：增加【搜索 -> 搜索选定范围】  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="70%" height="70%" />
 
 2. Plugin: Custom page margin
+插件：增加
 
 3. Plugin: Open folder location of shortcuts
+插件：对附件快捷方式增加"打开源文件夹"功能  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111252.png"  width="70%" height="70%" />
 
-4. Improvement: Open attached documents externally with the original file names
+4. Improvement: Open attached documents externally with the original file names  
+增强：当用外部程序打开附件时使用附件原来的文件名
 
-5. Improvement: Options to customize default paragraph attributes
+5. Improvement: Options to customize default paragraph attributes  
+增强：自定义默认段落属性  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="70%" height="70%" />
 
-6. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly
+6. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
+
 
 
 ## Version 7.0.0 Beta-20
