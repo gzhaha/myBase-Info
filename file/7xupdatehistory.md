@@ -1,5 +1,5 @@
 #Mybase v7更新记录
-此页用来记录Mybase v7的更新记录
+返回[myBase-Info首页](https://github.com/gzhaha/myBase-Info)  
 
 官网链接如下：
 [http://www.wjjsoft.com/mybase_v7_changelog.html](http://www.wjjsoft.com/mybase_v7_changelog.html)
