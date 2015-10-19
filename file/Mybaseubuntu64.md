@@ -2,7 +2,7 @@
 
 Started from 7.x, mybase can run in Linux system. Based on the [Online Manual](http://www.wjjsoft.com/mybase_v7_docs.html#H3_3665), if running Mybase in 64bit Linux system, 32-bit library need to be installed properly first.  
 
-##The process to install ia32-libs library in Ubuntu 15.04 desktop amd64
+##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
 As the latest version of Ubuntu does not use ia32-libs, you will need to add the old source and delete the old source after installation of the ia32-libs.   
 
 Before changing the sources.list, you may also consider a backup of the original sources.list first.
