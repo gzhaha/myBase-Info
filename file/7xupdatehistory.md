@@ -12,10 +12,10 @@
 插件：增加【搜索 -> 搜索选定范围】  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="70%" height="70%" />
 
-2. Plugin: Custom page margin
+2. Plugin: Custom page margin  
 插件：增加
 
-3. Plugin: Open folder location of shortcuts
+3. Plugin: Open folder location of shortcuts  
 插件：对附件快捷方式增加"打开源文件夹"功能  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111252.png"  width="70%" height="70%" />
 
@@ -27,7 +27,7 @@
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="70%" height="70%" />
 
 6. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
-
+修正：Ctrl+Open热键导致把数据库变成只读的问题
 
 
 ## Version 7.0.0 Beta-20
