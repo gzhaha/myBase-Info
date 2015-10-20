@@ -1,7 +1,7 @@
-#Mybase v7更新记录
+﻿#Mybase v7更新记录
 返回[myBase-Info首页](https://github.com/gzhaha/myBase-Info)  
 
-官网链接如下：
+官网相关链接如下：
 [http://www.wjjsoft.com/mybase_v7_changelog.html](http://www.wjjsoft.com/mybase_v7_changelog.html)
 
 > **注意：
@@ -26,12 +26,14 @@
 增强：自定义默认段落属性  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="80%" height="80%" />
 
-6. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
+6. Added: the 'Add info items' menu item within the Lable/Calendar view  
+增加：在日历和标签视图加入“添加条目”  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_083540.png"  width="70%" height="70%" />
+
+7. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
 
-
 ## Version 7.0.0 Beta-20
-
 1. Plugin: Syntax highlight for source code (C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, etc.)  
 插件：增加代码高亮，支持(C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, 等)
 
