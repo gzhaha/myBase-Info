@@ -18,7 +18,7 @@
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_084433.png"  width="70%" height="70%" />
 
 3. Plugin: Open folder location of shortcuts  
-插件：对附件快捷方式增加"打开源文件夹"功能  
+插件：对附件快捷方式增加【打开源文件夹】功能  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111252.png"  width="60%" height="60%" />
 
 4. Improvement: Open attached documents externally with the original file names  
