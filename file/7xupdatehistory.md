@@ -29,7 +29,7 @@
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="80%" height="80%" />
 
 6. Added: the 'Add info items' menu item within the Lable/Calendar view  
-增加：在日历和标签视图加入“添加条目”  
+增加：在【日历】和【标签】视图加入“添加条目”  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_083540.png"  width="70%" height="70%" />
 
 7. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
