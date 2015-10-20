@@ -1,11 +1,12 @@
 ﻿#Mybase v7更新记录
 返回[myBase-Info首页](https://github.com/gzhaha/myBase-Info)  
 
-官网相关链接如下：
+官网相关链接如下(Official website)：
 [http://www.wjjsoft.com/mybase_v7_changelog.html](http://www.wjjsoft.com/mybase_v7_changelog.html)
 
 > **注意：
-> 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**
+> 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
+> **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
 ## Version 7.0.0 Beta-21 (Under development)
 1. Plugin: Custom search scope  
@@ -13,7 +14,8 @@
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="50%" height="50%" />
 
 2. Plugin: Custom page margin  
-插件：增加【段落 -> 定制页面边距】
+插件：增加【段落 -> 定制页面边距】  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_084433.png"  width="70%" height="70%" />
 
 3. Plugin: Open folder location of shortcuts  
 插件：对附件快捷方式增加"打开源文件夹"功能  
