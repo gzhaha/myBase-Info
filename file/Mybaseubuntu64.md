@@ -1,4 +1,4 @@
-#Running Mybase 7.x in 64bit Ubuntu
+#Running myBase 7.x in 64bit Ubuntu
 
 Starting from 7.x, mybase can run in Linux system. Based on the [Online Manual](http://www.wjjsoft.com/mybase_v7_docs.html#H3_3665), 32-bit library need to be installed properly first before running myBase in 64bit Linux system.
 
