@@ -1,4 +1,4 @@
-﻿#Mybase v7更新记录
+﻿#myBase v7 更新记录
 返回[myBase-Info首页](https://github.com/gzhaha/myBase-Info)  
 
 官网相关链接如下(Official website)：
@@ -34,6 +34,9 @@
 
 7. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
+
+8. Bugfix: The program may crash when the 'Find as you type' action re-enters  
+修正：修正键入时搜索有可能出现crash的问题
 
 ## Version 7.0.0 Beta-20
 1. Plugin: Syntax highlight for source code (C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, etc.)  
