@@ -21,22 +21,34 @@
 插件：对附件快捷方式增加【打开源文件夹】功能  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111252.png"  width="60%" height="60%" />
 
-4. Improvement: Open attached documents externally with the original file names  
+4. Improvement: enabled to open attached documents externally with the original file names  
 增强：当用外部程序打开附件时使用附件原来的文件名
 
 5. Improvement: Options to customize default paragraph attributes  
 增强：自定义默认段落属性  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="80%" height="80%" />
 
-6. Added: the 'Add info items' menu item within the Lable/Calendar view  
+6. Improvement: enabled to center an info item on opening from the Query-results or Item-links pane  
+增强：
+
+7. Improvement: enabled the outline to auto-scroll when dragging info items over the edge of the view  
+增强：拖动节点到边界时会自动滚屏。
+
+8. Improvement: allows to drag Query results and drop into the outline view, to make item links  
+增强：把条目从查询结果中拖入内容区域将生成相应条目链接。
+
+9. Added: the 'Add info items' menu item within the Lable/Calendar view  
 增加：在【日历】和【标签】视图加入“添加条目”  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_083540.png"  width="70%" height="70%" />
 
-7. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
+10. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
 
-8. Bugfix: The program may crash when the 'Find as you type' action re-enters  
-修正：修正键入时搜索有可能出现crash的问题
+11. Bugfix: The program may crash when the 'Find as you type' action re-enters  
+修正：修正“键入时搜索”有可能出现crash的问题
+
+12. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
+修正：修正在非英文操作系统下【历史修订版本】中文字显示乱码的问题
 
 ## Version 7.0.0 Beta-20
 1. Plugin: Syntax highlight for source code (C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, etc.)  
