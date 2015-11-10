@@ -50,6 +50,9 @@
 12. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
 修正：修正在非英文操作系统下【历史修订版本】中文字显示乱码的问题
 
+13. Bugfix: the default icons not imported on creating new databases
+修正：修正新建数据库文件时默认未包含默认图标的问题
+
 ## Version 7.0.0 Beta-20
 1. Plugin: Syntax highlight for source code (C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, etc.)  
 插件：增加代码高亮，支持(C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, 等)
