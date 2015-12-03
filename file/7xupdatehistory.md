@@ -37,20 +37,24 @@
 8. Improvement: allows to drag Query results and drop into the outline view, to make item links  
 增强：把条目从查询结果中拖入内容区域将生成相应条目链接。
 
-9. Added: the 'Add info items' menu item within the Lable/Calendar view  
+9. Improvement: allows to customize the main menu bar; Sub menus can be put onto the main menu bar  
+增强：支持自定义菜单    
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-03_232110.png"  width="80%" height="80%" />
+
+10. Added: the 'Add info items' menu item within the Lable/Calendar view  
 增加：在【日历】和【标签】视图加入“添加条目”  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_083540.png"  width="70%" height="70%" />
 
-10. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
+11. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
 
-11. Bugfix: The program may crash when the 'Find as you type' action re-enters  
+12. Bugfix: The program may crash when the 'Find as you type' action re-enters  
 修正：修正“键入时搜索”有可能出现crash的问题
 
-12. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
+13. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
 修正：修正在非英文操作系统下【历史修订版本】中文字显示乱码的问题
 
-13. Bugfix: the default icons not imported on creating new databases
+14. Bugfix: the default icons not imported on creating new databases  
 修正：修正新建数据库文件时默认未包含默认图标的问题
 
 ## Version 7.0.0 Beta-20
