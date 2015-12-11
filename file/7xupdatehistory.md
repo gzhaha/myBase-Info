@@ -29,7 +29,7 @@
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_111541.png"  width="80%" height="80%" />
 
 6. Improvement: enabled to center an info item on opening from the Query-results or Item-links pane  
-增强：
+增强：搜索结果的显示方式。
 
 7. Improvement: enabled the outline to auto-scroll when dragging info items over the edge of the view  
 增强：拖动节点到边界时会自动滚屏。
@@ -41,21 +41,39 @@
 增强：支持自定义菜单    
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-03_232110.png"  width="80%" height="80%" />
 
-10. Added: the 'Add info items' menu item within the Lable/Calendar view  
+10. Improvement: for Windows, the keyboard_shortcuts.ini can be preserved while re-installing; for Linux/Mac, the keyboard shortcut settings will be saved in the user's HOME directory  
+增强：Windows下keyboard_shortcuts.ini配置文件在安装myBase时可以选择保留。Linux/Mac下键盘快捷方式配置将保存在用户HOME目录。
+
+11. Improvement: for Linux/Mac, the config file (.myBase7.ini) will be saved in the user's HOME directory, so all the configurations can be retained when reinstalling later versions  
+增强：Linux/Mac下，配置文件.myBase7.ini将被保留在用户HOME目录，升级软件将会保留此配置文件。
+
+12. Improvement: for Mac, the new UI style is applied to the main tool bar and tool buttons  
+增强：Mac下全新的UI风格。
+
+13. Added: the 'Add info items' menu item within the Lable/Calendar view  
 增加：在【日历】和【标签】视图加入“添加条目”  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-21_083540.png"  width="70%" height="70%" />
 
-11. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
+14. Added: the new logo image file  
+增加：全新设计的logo图片
+
+15. Added: the option to customize directory path to save index/backup files  
+增加：自定义index和备份的目录，【查看】->【选项】->【查找】和【查看】->【选项】->【备份】
+
+16. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
 
-12. Bugfix: The program may crash when the 'Find as you type' action re-enters  
-修正：修正“键入时搜索”有可能出现crash的问题
+17. Bugfix: The program may crash when the 'Find as you type' action re-enters  
+修正：“键入时搜索”有可能出现crash的问题
 
-13. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
+18. Bugfix: garbage characters may appear in the Revision History list on non-English platforms  
 修正：修正在非英文操作系统下【历史修订版本】中文字显示乱码的问题
 
-14. Bugfix: the default icons not imported on creating new databases  
+19. Bugfix: the default icons not imported on creating new databases  
 修正：修正新建数据库文件时默认未包含默认图标的问题
+
+20. Bugfix: the program may crash on Mac when pressing Close button while a popu menu is active  
+修正：Mac下有可能出现crash的问题
 
 ## Version 7.0.0 Beta-20
 1. Plugin: Syntax highlight for source code (C/C++, Javascript, Java, C#, PHP, SQL, Perl, VB, Delphi, Ruby, GO, R, Python, Bash, Objective C, Swift, etc.)  
