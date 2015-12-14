@@ -8,7 +8,7 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
-## Version 7.0.0 Beta-21 (Under development)
+## Version 7.0.0 Beta-21
 1. Plugin: Custom search scope  
 插件：增加【搜索 -> 搜索选定范围】  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-10-19_110754.png"  width="50%" height="50%" />
@@ -58,7 +58,7 @@
 增加：全新设计的logo图片
 
 15. Added: the option to customize directory path to save index/backup files  
-增加：自定义index和备份的目录，【查看】->【选项】->【查找】和【查看】->【选项】->【备份】
+增加：自定义index/backup的目录，【查看】->【选项】->【查找】和【查看】->【选项】->【备份】
 
 16. Bugfix: The Ctrl+Open hotkey accidentally causes the database to lock as Readonly  
 修正：Ctrl+Open热键导致把数据库变成只读的问题
