@@ -122,39 +122,40 @@ The file header consists of a couple of [name=value] entries. Here's a sample he
 myBase provides a simple way to test your script code, without having to writting script code in .js files, you can simply write script code in the inbuilt HTML editor, and then highlight the script code, and select the [Tools - Evaluate expression or js code] menu item to run it. If the script code (e.g. math expression) returns a value that is not 'undefined' or empty string, it will be inserted into the HTML content as a result of the math expression.   
 
 myBase提供了一个简单的方法测试脚本代码，你可在信息节点内写入代码，然后选中这些代码，选择【工具->计算表达式或执行js脚本】来运行这些选中的代码。  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="60%" height="60%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="40%" height="40%" />
 
 ## Concepts & Terms （基本概念和用语）
 To help quickly get started with myBase Javascript APIs, please read about the following concepts and terms at first.  
 要想快速了解myBase Javascript APIs，建议先阅读以下基本概念和用语。
-1. SSG: stands for the structured storage library on which myBase is built.
-指myBase基于的数据库引擎。
-1. Database: stands for myBase .nyf databases.
-指myBase的nyf数据库。 
-1. SSG path: reference to file/folder entries in .nyf databases; it works like file system on hard disk.
- 用来指向.nyf数据库里的文件夹或文件，和硬盘的文件系统相类似。 
-1. SSG file: stands for a file-like entry (e.g. attachment) in .nyf databases, and is referred by SSG file path (e.g. /organizer/data/1/2/3/abc.txt).
-代表.nyf数据库里的每个条目，使用SSG file path作为指向（如：/organizer/data/1/2/3/abc.txt）。 
-1. SSG folder: stands for a folder-like entry (e.g. info item) in .nyf databases, and is referred by SSG folder path (e.g. /organizer/data/1/2/3/).
-代表.nyf数据库中类似**文件夹**的条目（如：信息节点），使用SSG folder path来指定（如：/organizer/data/1/2/3/）
-1. SSG entry: stands for either a file or folder entry.
-代表文件或文件夹
-1. Nyf root path: SSG path to the container of all top-level info items in .nyf databases; it is hard-coded as '/Organizer/data';
-SSG的根路径，包含.nyf根信息节点，**必须**为'/Organizer/data'
-1. AppDataOfEntry: each SSG file/folder entry maintains a list of application-defined data (Integers).
-每个SSG文件和目录的应用相关数据
-1. platform object: provides a set of API which wraps system specific functions.
-提供一些系统相关的API
-1. plugin object: provides a set of API which wraps myBase plugin API, for accessing selected content in views or controlling the main program.
-提供API用于访问当前视图中选中的内容或者程序
-1. CNyfDb class: provides a set of API which wraps the SSG structured storage library, for accessing to files/folders within .nyf databases by using SSG paths.
-提供API用于访问nyf数据库中的文件和目录
-1. CLocalFile class: provides a set of API for accessing to local files.
-提供API用于访问本地文件
-1. CLocalDir class: provides a set of API for accessing to local directories.
-提供API用于访问本地文件夹
-1. CAppWord classes: provides a set of API for controlling MS-Word by using OLE-Automation.
-提供API用于控制MS-Word。
+  
+1. SSG: stands for the structured storage library on which myBase is built.  
+指myBase基于的数据库引擎。  
+2. Database: stands for myBase .nyf databases.  
+指myBase的nyf数据库。  
+3. SSG path: reference to file/folder entries in .nyf databases; it works like file system on hard disk.  
+ 用来指向.nyf数据库里的文件夹或文件，和硬盘的文件系统相类似。  
+4. SSG file: stands for a file-like entry (e.g. attachment) in .nyf databases, and is referred by SSG file path (e.g. /organizer/data/1/2/3/abc.txt).  
+代表.nyf数据库里的每个条目，使用SSG file path作为指向（如：/organizer/data/1/2/3/abc.txt）。  
+5. SSG folder: stands for a folder-like entry (e.g. info item) in .nyf databases, and is referred by SSG folder path (e.g. /organizer/data/1/2/3/).  
+代表.nyf数据库中类似**文件夹**的条目（如：信息节点），使用SSG folder path来指定（如：/organizer/data/1/2/3/）  
+6. SSG entry: stands for either a file or folder entry.  
+代表文件或文件夹  
+7. Nyf root path: SSG path to the container of all top-level info items in .nyf databases; it is hard-coded as '/Organizer/data';  
+SSG的根路径，包含.nyf根信息节点，**必须**为'/Organizer/data'  
+8. AppDataOfEntry: each SSG file/folder entry maintains a list of application-defined data (Integers).
+每个SSG文件和目录的应用相关数据  
+9. platform object: provides a set of API which wraps system specific functions.  
+提供一些系统相关的API  
+10. plugin object: provides a set of API which wraps myBase plugin API, for accessing selected content in views or controlling the main program.  
+提供API用于访问当前视图中选中的内容或者程序  
+11. CNyfDb class: provides a set of API which wraps the SSG structured storage library, for accessing to files/folders within .nyf databases by using SSG paths.  
+提供API用于访问nyf数据库中的文件和目录  
+12. CLocalFile class: provides a set of API for accessing to local files.  
+提供API用于访问本地文件  
+13. CLocalDir class: provides a set of API for accessing to local directories.  
+提供API用于访问本地文件夹  
+14. CAppWord classes: provides a set of API for controlling MS-Word by using OLE-Automation.  
+提供API用于控制MS-Word。  
 
 ## The Global Functions Reference （全局函数参考）
 The global functions (e.g. alert, confirm, input, etc.) can be called directly without preceding instantiation or initialization.  
