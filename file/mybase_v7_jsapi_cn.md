@@ -62,17 +62,21 @@ The word 'JavaScript' may bring to mind features such as event handlers (like on
 
 ## Installing .js Plugins（安装js插件）
 myBase loads .js plugins by default from the './plugins' sub directory under the program's installation directory. You have the convenience of installing .js plugins by simply putting .js plugin files to the './plugins' directory, and then re-launch myBase to let new plugins to be registered and listed in the menus or on the toolbar.  
+
 默认情况下，myBase启动时会从安装目录的./plugins文件夹载入.js插件。您只需把.js文件复制到./plugins目录，然后重新启动软件即可。 
 
 In addition, myBase supports loading plugins from multiple directories; To customize the plugin directories, please try to edit the myBase.ini config file by using a plain text editor (e.g. notepad.exe) at the line below; Multiple directories are separated with a semicolon.  
+
 另外myBase也支持从多个目录载入插件，可以通过修改myBase.ini配置文件中的App.Path.PluginFiles=自定义这些目录，多个目录之间通过**分号**分隔，示例如下。
 
     App.Path.PluginFiles=./plugins;/home/username/mybase/plugins1;/home/username/mybase/plugins2
 
 In order for your plugin script to be registered and installed in menus or on toolbars, a file header must be inserted in front of your functional script code within the .js file; The file header describes the plugin script and defines a few values to determine how/where to install it.  
+
 在每个.js插件文件的开头，都必须加入用来定义/标识插件的几行文件头文字。有了这些内容，.js文件才会被软件正确识别和加载。
 
 The file header consists of a couple of [name=value] entries. Here's a sample header.  
+
 请看如下示例： 
 
     //sValidation=nyfjs
@@ -89,33 +93,33 @@ The file header consists of a couple of [name=value] entries. Here's a sample he
     // Your functional script code go here ...
     alert('Hello world');
 
-* sValidation: The '//sValidation=nyfjs' header must be kept in each .js plugin files as it is (hard-coded);
+* sValidation: The '//sValidation=nyfjs' header must be kept in each .js plugin files as it is (hard-coded);  
 每个.js插件**必须**包含//sValidation=nyfjs在开头
-* sCaption: the plugin's caption text, shown in the menu or on the tool button;
+* sCaption: the plugin's caption text, shown in the menu or on the tool button;  
 插件名称，将显示在菜单
-* sHint: the descriptive text about the plugin functionality, shown on the status bar when the menu item is hovered;
+* sHint: the descriptive text about the plugin functionality, shown on the status bar when the menu item is hovered;  
 插件描述，将显示在状态栏（当选中插件时）
-* sCategory: specifies in which menu or toolbar to put the plugin item; it can be 'MainMenu.[\*\*\*]', or 'Context.[\*\*\*]', and or 'ToolBar.[\*\*\*]', where '[\*\*\*]' is a menu/toolbar's tag name (English, not localized names);
+* sCategory: specifies in which menu or toolbar to put the plugin item; it can be 'MainMenu.[\*\*\*]', or 'Context.[\*\*\*]', and or 'ToolBar.[\*\*\*]', where '[\*\*\*]' is a menu/toolbar's tag name (English, not localized names);  
 指定插件在那个目录或者工具条出现，可以设置为'MainMenu.[\*\*\*]'或者'Context.[\*\*\*]'或者'ToolBar.[\*\*\*]，'[\*\*\*]'为menu/toolbar下的下级名称
-* sPosition: specifies a tag in alphabetical order for positioning the plugin item inside the target menu or toolbar;
+* sPosition: specifies a tag in alphabetical order for positioning the plugin item inside the target menu or toolbar;  
 插件显示顺序
-* sCondition: specifies in which conditions are required for the plugin to function normally, can be one of the following values; 
+* sCondition: specifies in which conditions are required for the plugin to function normally, can be one of the following values;   
 指定在何种情况下插件可选
-    * CURDB: the current database must be open and accessible;
+    * CURDB: the current database must be open and accessible;  
 当前数据库可打开和读取时
-    * DBRW: the current database must be read/writeable;
+    * DBRW: the current database must be read/writeable;  
 当前数据库可被读写时
-    * CURINFOITEM: the current info item must be available and accessible;
+    * CURINFOITEM: the current info item must be available and accessible;  
 当前节点可被读取时
-    * HTMLEDIT: the current HTML content must be editable;
+    * HTMLEDIT: the current HTML content must be editable;  
 当前节点可以被编辑时
-    * OUTLINE: the outline pane must be visible and active (focused);
+    * OUTLINE: the outline pane must be visible and active (focused);  
 大纲可见和激活时
-    * HTMLSELECTED: the HTML content is currently active (focused) or has text content selected;
+    * HTMLSELECTED: the HTML content is currently active (focused) or has text content selected;  
 选中节点内容时
-    * TABLE: the input caret must be put in a &lt;table&gt; section in the HTML content;
+    * TABLE: the input caret must be put in a &lt;table&gt; section in the HTML content;  
 光标在表格时
-* sID: a tag to identify the plugin item; it's also used for localization of messages and plugin icons;
+* sID: a tag to identify the plugin item; it's also used for localization of messages and plugin icons;  
 插件标签，亦用于本地化语言和指定插件图标
 
 ## A Simple Way to Test Script Code （测试脚本的简单方法）
