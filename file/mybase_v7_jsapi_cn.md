@@ -65,7 +65,7 @@ myBase loads .js plugins by default from the './plugins' sub directory under the
 默认情况下，myBase启动时会从安装目录的./plugins文件夹载入.js插件。您只需把.js文件复制到./plugins目录，然后重新启动软件即可。 
 
 In addition, myBase supports loading plugins from multiple directories; To customize the plugin directories, please try to edit the myBase.ini config file by using a plain text editor (e.g. notepad.exe) at the line below; Multiple directories are separated with a semicolon.  
-另外myBase也支持从多个目录载入插件，可以通过修改myBase.ini配置文件中的App.Path.PluginFiles=自定义这些目录，多个目录之间通过分号分隔，示例如下。
+另外myBase也支持从多个目录载入插件，可以通过修改myBase.ini配置文件中的App.Path.PluginFiles=自定义这些目录，多个目录之间通过**分号**分隔，示例如下。
 
     App.Path.PluginFiles=./plugins;/home/username/mybase/plugins1;/home/username/mybase/plugins2
 
@@ -122,7 +122,7 @@ The file header consists of a couple of [name=value] entries. Here's a sample he
 myBase provides a simple way to test your script code, without having to writting script code in .js files, you can simply write script code in the inbuilt HTML editor, and then highlight the script code, and select the [Tools - Evaluate expression or js code] menu item to run it. If the script code (e.g. math expression) returns a value that is not 'undefined' or empty string, it will be inserted into the HTML content as a result of the math expression.   
 
 myBase提供了一个简单的方法测试脚本代码，你可在信息节点内写入代码，然后选中这些代码，选择【工具->计算表达式或执行js脚本】来运行这些选中的代码。  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="90%" height="90%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="60%" height="60%" />
 
 ## Concepts & Terms （基本概念和用语）
 To help quickly get started with myBase Javascript APIs, please read about the following concepts and terms at first.  
