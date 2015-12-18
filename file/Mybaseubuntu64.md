@@ -3,7 +3,7 @@
 **Note:**  
 > **64bit version** of myBase 7 is provided from the official download website.  
 > [English Version](http://www.wjjsoft.com/download.html)  
-> [中文版](www.wjjsoft.com/mybase_cn.html#download)
+> [中文版](http://www.wjjsoft.com/mybase_cn.html#download)
 
 If you still prefer to use 32bit myBase 7 in 64bit Linux system, based on the [Online Manual](http://www.wjjsoft.com/mybase_v7_docs.html#H3_3665) the 32-bit library need to be installed properly.
 
