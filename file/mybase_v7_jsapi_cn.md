@@ -122,7 +122,7 @@ The file header consists of a couple of [name=value] entries. Here's a sample he
 myBase provides a simple way to test your script code, without having to writting script code in .js files, you can simply write script code in the inbuilt HTML editor, and then highlight the script code, and select the [Tools - Evaluate expression or js code] menu item to run it. If the script code (e.g. math expression) returns a value that is not 'undefined' or empty string, it will be inserted into the HTML content as a result of the math expression.   
 
 myBase提供了一个简单的方法测试脚本代码，你可在信息节点内写入代码，然后选中这些代码，选择【工具->计算表达式或执行js脚本】来运行这些选中的代码。  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="40%" height="40%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-18_133548.png"  width="45%" height="45%" />
 
 ## Concepts & Terms （基本概念和用语）
 To help quickly get started with myBase Javascript APIs, please read about the following concepts and terms at first.  
@@ -159,7 +159,8 @@ SSG的根路径，包含.nyf根信息节点，**必须**为'/Organizer/data'
 
 ## The Global Functions Reference （全局函数参考）
 The global functions (e.g. alert, confirm, input, etc.) can be called directly without preceding instantiation or initialization.  
-**about**
+
+**about**  
 The 'about' function returns the application information, such as program title, version, copyright notice, etc.;  
 'about'函数返回程序相关信息，包含程序名称，版本，版权等信息。 
 
