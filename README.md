@@ -5,5 +5,5 @@ The pages here are for myBase 7.x only. You can find more information about myBa
 
 Links to Contents:  
 * [myBase v7 更新记录 - 个人翻译版](https://github.com/gzhaha/myBase-Info/blob/master/file/7xupdatehistory.md) - 更新于2015年12月12日  
-* [myBase 7.x Javascript APIs Reference - 个人翻译版（进行中）](https://github.com/gzhaha/myBase-Info/blob/master/file/mybase_v7_jsapi_cn.md) - 更新于2015年12月18日  
+* [myBase 7.x Javascript APIs Reference - 个人翻译版（进行中）](https://www.gitbook.com/book/gzhaha/mybase-7-javascript-apis-reference-cn/details) - 更新于2015年12月18日  
 * [Running 32bit myBase 7.x in Ubuntu 15.04 64bit desktop](https://github.com/gzhaha/myBase-Info/blob/master/file/Mybaseubuntu64.md) - 更新于2015年12月18日  
