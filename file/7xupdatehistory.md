@@ -8,6 +8,11 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
+## Version 7.0.0 Beta-22 (Under development)
+1. Added: the 'Character set' option for non-Unicode circumstances e.g. Sorting text by Chinese/PinYin, Resolving gibberish characters  
+增加：“字符集编码”选项  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-31_205415.png"  width="60%" height="60%" />
+
 ## Version 7.0.0 Beta-21
 1. Plugin: Custom search scope  
 插件：增加【搜索 -> 搜索选定范围】  
