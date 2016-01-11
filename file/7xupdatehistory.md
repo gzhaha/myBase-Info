@@ -11,7 +11,14 @@
 ## Version 7.0.0 Beta-22 (Under development)
 1. Added: the 'Character set' option for non-Unicode circumstances e.g. Sorting text by Chinese/PinYin, Resolving gibberish characters  
 增加：“字符集编码”选项  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-31_205415.png"  width="60%" height="60%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-31_205415.png"  width="70%" height="70%" />
+
+2. Added: a button to toggle the Saved searches pane within the Search tab page  
+增加：在搜索面板增加按钮隐藏或打开“保存的搜索项”  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-01-11_175546.png"  width="60%" height="60%" />
+
+3. Added: the mouse wheel scroll-up/down action to zoom in/out content in the HTML editor  
+增加：可以使用鼠标滚轮放大和缩小信息条目编辑区内容
 
 ## Version 7.0.0 Beta-21
 1. Plugin: Custom search scope  
