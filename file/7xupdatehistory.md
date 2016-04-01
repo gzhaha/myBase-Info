@@ -8,17 +8,105 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
-## Version 7.0.0 Beta-22 (Under development)
+## Version 7.0.0 Beta-22
 1. Added: the 'Character set' option for non-Unicode circumstances e.g. Sorting text by Chinese/PinYin, Resolving gibberish characters  
 增加：“字符集编码”选项  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-12-31_205415.png"  width="70%" height="70%" />
 
-2. Added: a button to toggle the Saved searches pane within the Search tab page  
-增加：在搜索面板增加按钮隐藏或打开“保存的搜索项”  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-01-11_175546.png"  width="60%" height="60%" />
+2. Added: a tab widget for the advanced search form and saved searches list in the separate panes  
+增加：高级搜索加人【已存搜索项】  
 
 3. Added: the mouse wheel scroll-up/down action to zoom in/out content in the HTML editor  
-增加：可以使用鼠标滚轮放大和缩小信息条目编辑区内容
+增加：可以使用鼠标滚轮放大和缩小信息条目编辑区内容  
+
+4. Added: the 'Format brush' feature which enables to handily apply text style from current selection to another part of text contents, like using a paint brush; A mouse click on the 'Format brush' tool button to use it once, double-click to keep it active  
+增加：【格式刷】功能  
+
+5. Added: an option to enable using file system icons for outline items (the drive icon for root items, folder icon for branches and file icon for leaf items); Or the default/inbuilt 'cube' icon is selected for info items loading from the image file './images/ico_infoitem.png'  
+增加：可使用系统图标选项  
+
+6. Added: support of cross-database hyperlinks, which allows to make hyperlinks to info items saved in different .nyf databases; It's required to first have target databases open before making cross-db hyperlinks  
+增加：跨数据库链接  
+
+7. Added: backward compatibility for hyperlinks created within earlier version 5.x  
+增加：兼容v5.x版本的超链接  
+
+8. Added: an indicator icon for info items being loaded as Image gallery  
+增加：在大纲条目加入图片浏览指示标记  
+
+9. Added: support of boolean operators (AND, OR) for searching labels  
+增加：在【高级搜索】中对标签加人AND, OR支持  
+
+10. Added: support of boolean operators (AND, OR, NOT) for searching partial words  
+增加：对【查找不完整单词】加人AND, OR, NOT支持  
+
+11. Added: an option to search currently selected branches in the Advanced Search pane  
+增加：在【高级搜索】中加人“当前分支”选项  
+
+12. Plugin: File - Maintenance - Merge database, for merging newer revisions from a specified .nyf database into the current database  
+插件：新增【文件】-【维护】-【合并数据库】
+
+13. Enhancement: an option to display colorful labels; The color is extracted from the associated custom icons  
+增强：可定义标签颜色，颜色从自定义图标中获取  
+
+14. Enhancement: ability to save/restore the list header of the attachments/results views  
+增强：  
+
+15. Enhancement: handle Chinese characters in search phrases with Find-as-you-type  
+增强：即时搜索中加强对中文的处理  
+
+16. Enhancement: new algorithm to allocate unique IDs for each info items, to help the DB-Merge utility to resolve/avoid conflicts  
+增强：为实现【合并数据库】做的节点唯一ID算法上的增强  
+
+17. Enhancement: graphical presentation of calendar date and reminder with in the outline view  
+增强：如果信息条目有关联日历，则在大纲视图中将有显示。  
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-04-01_211044.png"  width="50%" height="50%" />
+
+18. Enhancement: in the hyperink eidting dialog box, bookmarks will be listed in a separate window, that substitutes for the popup menu, as menu items scrolls up/down slower;  
+增强：【编辑链接】中，修改添加书签的呈现方式  
+
+19. Bugfix: v5.x legacy hyperlinks not working  
+修正：v5.x超链接无效的问题  
+
+20. Bugfix: bookmarks not working with new/empty info items  
+修正：书签对于新建和空信息节点无效的问题  
+
+21. Bugfix: corrections to the default focus policy within confirmation popup windows, the 'Yes' button has initial focus for Save-specific operations, and the 'No or Cancel' has initial focus for Deletion-specific operations  
+修正：对话框中的默认焦点  
+
+22. Bugfix: shortcuts not working when exporting attachments  
+修正：导出附件时，快捷方式不生效的问题  
+
+23. Bugfix: the plugin 'Export text without formatting' not working  
+修正：导出纯文本插件无效的问题  
+
+24. Bugfix: trashed items may not be listed in Undelete mode if no any other sibling items existing  
+修正：特定情况下删除的节点并未在【恢复删除项】中出现的问题  
+
+25. Bugfix: in the HTML editor, changes not saved when loading image gallery  
+修正：【编辑html源码】时，使用【打开图片浏览】导致html源码不保存的问题  
+
+26. Bugfix: on the main toolbar, shortcut keys not shown in the native format on Mac OS X  
+修正：  
+
+27. Bugfix: defnote/attachments not matched on searching index+labels  
+修正：搜索的一个不匹配的问题  
+
+28. Bugfix: in the image gallery mode, screen may flash when switching over to another picture  
+修正：【打开图片浏览】图片闪烁的问题  
+
+29. Bugfix: in the image gallery mode, no more than 12 images shown in the left side bar  
+修正：【打开图片浏览】多于12张图片的显示问题  
+
+30. Bugfix: in the hyperlink editing dialog box, the OK button is not enabled after editing the hyperlink  
+修正：【编辑链接】中，修改链接后，OK按钮不可用的问题  
+
+31. Bugfix: in the HTML editor, pasting plain text containing special characters (U+0085, U+2028, U+2029) not working  
+修正：【编辑html源码】中，某些特殊字符无效的问题  
+
+32. Minor fixes/tweaks/changes  
+其他小修正，调整和更新
+
 
 ## Version 7.0.0 Beta-21
 1. Plugin: Custom search scope  
