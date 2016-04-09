@@ -35,10 +35,10 @@
 增加：在大纲条目加入图片浏览指示标记  
 
 9. Added: support of boolean operators (AND, OR) for searching labels  
-增加：在【高级搜索】中对标签加人AND, OR支持  
+增加：在【高级搜索】中对标签加人AND, OR布尔操作符的支持  
 
 10. Added: support of boolean operators (AND, OR, NOT) for searching partial words  
-增加：对【查找不完整单词】加人AND, OR, NOT支持  
+增加：对【查找不完整单词】加人AND, OR, NOT布尔操作符的支持  
 
 11. Added: an option to search currently selected branches in the Advanced Search pane  
 增加：在【高级搜索】中加人“当前分支”选项  
