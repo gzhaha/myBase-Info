@@ -23,7 +23,7 @@
 增加：【格式刷】功能  
 
 5. Added: an option to enable using file system icons for outline items (the drive icon for root items, folder icon for branches and file icon for leaf items); Or the default/inbuilt 'cube' icon is selected for info items loading from the image file './images/ico_infoitem.png'  
-增加：可使用系统图标选项  
+增加：可使用系统图标的选项  
 
 6. Added: support of cross-database hyperlinks, which allows to make hyperlinks to info items saved in different .nyf databases; It's required to first have target databases open before making cross-db hyperlinks  
 增加：跨数据库链接  
@@ -47,20 +47,20 @@
 插件：新增【文件】-【维护】-【合并数据库】
 
 13. Enhancement: an option to display colorful labels; The color is extracted from the associated custom icons  
-增强：可定义标签颜色，颜色从自定义图标中获取  
+增强：可自定义标签颜色，颜色从自定义图标中获取  
 
 14. Enhancement: ability to save/restore the list header of the attachments/results views  
-增强：  
+增强：附件窗口和搜索结果窗口表头的保存和恢复  
 
 15. Enhancement: handle Chinese characters in search phrases with Find-as-you-type  
 增强：即时搜索中加强对中文的处理  
 
 16. Enhancement: new algorithm to allocate unique IDs for each info items, to help the DB-Merge utility to resolve/avoid conflicts  
-增强：为实现【合并数据库】做的节点唯一ID算法上的增强  
+增强：为实现【合并数据库】功能做的节点唯一ID算法上的增强  
 
 17. Enhancement: graphical presentation of calendar date and reminder with in the outline view  
 增强：如果信息条目有关联日历，则在大纲视图中将有显示。  
-<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-04-01_211044.png"  width="50%" height="50%" />
+<img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-04-01_211044.png"  width="30%" height="30%" />
 
 18. Enhancement: in the hyperink eidting dialog box, bookmarks will be listed in a separate window, that substitutes for the popup menu, as menu items scrolls up/down slower;  
 增强：【编辑链接】中，修改添加书签的呈现方式  
@@ -72,7 +72,7 @@
 修正：书签对于新建和空信息节点无效的问题  
 
 21. Bugfix: corrections to the default focus policy within confirmation popup windows, the 'Yes' button has initial focus for Save-specific operations, and the 'No or Cancel' has initial focus for Deletion-specific operations  
-修正：对话框中的默认焦点  
+修正：对话框中默认焦点的优化  
 
 22. Bugfix: shortcuts not working when exporting attachments  
 修正：导出附件时，快捷方式不生效的问题  
@@ -87,7 +87,7 @@
 修正：【编辑html源码】时，使用【打开图片浏览】导致html源码不保存的问题  
 
 26. Bugfix: on the main toolbar, shortcut keys not shown in the native format on Mac OS X  
-修正：  
+修正：Mac OS X工具栏中快捷方式的显示问题  
 
 27. Bugfix: defnote/attachments not matched on searching index+labels  
 修正：搜索的一个不匹配的问题  
