@@ -8,6 +8,10 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
+## Version 7.0.0 Beta-23（正在开发中）
+1.   
+
+
 ## Version 7.0.0 Beta-22
 1. Added: the 'Character set' option for non-Unicode circumstances e.g. Sorting text by Chinese/PinYin, Resolving gibberish characters  
 增加：“字符集编码”选项  
