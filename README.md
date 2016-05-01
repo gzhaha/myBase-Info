@@ -10,4 +10,5 @@ The pages here are for myBase 7.x only. You can find more information about myBa
 * [myBase Desktop 6.x 用户手册（简体中文版）](http://www.wjjsoft.com/mybase_v6_docs_chs.html) - 更新于2013年12月25日  
 
 ## How-to:  
+* [Write a myBase 7.x Plugin in 4 Steps](https://github.com/gzhaha/myBase-Info/blob/master/file/MybasePluginExample1.md) - 更新于2016年5月1日  
 * [Running 32bit myBase 7.x in Ubuntu 15.04 64bit desktop](https://github.com/gzhaha/myBase-Info/blob/master/file/Mybaseubuntu64.md) - 更新于2015年12月18日  
