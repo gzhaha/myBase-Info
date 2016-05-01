@@ -5,7 +5,7 @@ You can access to all the examples and API technical documents via [Official Web
 
 Below example shows how to achieve the function of setting background image for specific info item.
 
-**Step 1: Copy below code to a text file and save as XXX.js (XXX is your Plugin file name)**  
+## Step 1: Copy below code to a text file and save as XXX.js (XXX is your Plugin file name)
 ```
 //sValidation=nyfjs
 //sCaption=XXXXXXXXXXXX
@@ -58,12 +58,12 @@ try{
 
 ```
 
-**Step 2: Define all the XXXXXXXXXXX in the source code**  
+## Step 2: Define all the XXXXXXXXXXX in the source code
 For example: //sCaption=XXXXXXXXXXXX, you can change XXXXXXXXXXXX to Caption name of the plugin.  
 
 Refer to [Official Website](http://www.wjjsoft.com/mybase_v7_jsapi.html#install) for more details.  
 
-**Step 3: Writing Code**  
+## Step 3: Writing Code
 There are more than one way to do this, below is one simple and direct way written in eight lines of codes.
 ```
 				var sTxt = prompt('Background Img name:', '', 'Enter Background Img name');
@@ -90,11 +90,13 @@ The sixth line assigns the changed html source code back to the info item. You c
 
 The last two lines are used to commit changes. Information about 【plugin.setDomDirty】 and 【plugin.commitCurrentChanges】 via [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_setDomDirty) and [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_commitCurrentChanges).  
 
-**Step 4: Use the plugin**  
-Save the XXX.js file under myBase plugin folder. Exit myBase, then run again, the plugin will be loaded and you can run as below:  
+## Step 4: Use the plugin
+Save the XXX.js file under myBase plugin folder. Exit myBase, then run myBase again. Refer to [Official Website](http://www.wjjsoft.com/mybase_v7_jsapi.html#install) for more details on how to install plugin.  
+
+The plugin will be loaded and you can run as below:  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/plugineg1.gif"  width="60%" height="60%" />  
 
-**Future Enhancements of this plugin**  
+## Future Enhancements of this plugin
 As you already experienced, this plugin is simple and some improvemnet can be done to make this plugin more convenience.  
 
 For example:
