@@ -76,19 +76,19 @@ There are more than one way to do this, below is one simple and direct way writt
 					plugin.commitCurrentChanges(-1);					
 				}	
 ```
-The first line will ask user to input the desired background image name from user (image file already been put to the attachment of the specific info item) and assign to variable "sTxt". You can find more information about function 【prompt】 via [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#prompt).  
+The first line will ask user to input the desired background image name from user (image file already been put to the attachment of the specific info item) and assign to variable "sTxt". You can find more information about function 【prompt】 via [API document - prompt](http://www.wjjsoft.com/mybase_v7_jsapi.html#prompt).  
 
 Then "if" statement will be used to see if user input anything, if "yes", the following codes will be run.  
 
-The third line will get the info item's html source code and assign to variable "sCon". You can find more information about plugin object 【plugin.getTextContent】 via [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_getTextContent).  
+The third line will get the info item's html source code and assign to variable "sCon". You can find more information about plugin object 【plugin.getTextContent】 via [API document - plugin.getTextContent](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_getTextContent).  
 
 The forth line defines a regular expression rule.  
 
 The fifth line add the background img information to the html source code.  
 
-The sixth line assigns the changed html source code back to the info item. You can fine more informaion about 【plugin.setTextContent】via [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_setTextContent).  
+The sixth line assigns the changed html source code back to the info item. You can fine more informaion about 【plugin.setTextContent】via [API document - plugin.setTextContent](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_setTextContent).  
 
-The last two lines are used to commit changes. Information about 【plugin.setDomDirty】 and 【plugin.commitCurrentChanges】 via [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_setDomDirty) and [API document](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_commitCurrentChanges).  
+The last two lines are used to commit changes. Information about 【plugin.setDomDirty】 and 【plugin.commitCurrentChanges】 via [API document - plugin.setDomDirty](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_setDomDirty) and [API document - plugin.commitCurrentChanges](http://www.wjjsoft.com/mybase_v7_jsapi.html#plugin_commitCurrentChanges).  
 
 ## Step 4: Use the plugin
 Save the XXX.js file under myBase plugin folder. Exit myBase, then run myBase again. Refer to [Official Website](http://www.wjjsoft.com/mybase_v7_jsapi.html#install) for more details on how to install plugin.  
@@ -96,8 +96,10 @@ Save the XXX.js file under myBase plugin folder. Exit myBase, then run myBase ag
 The plugin will be loaded and you can run as below:  
 <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/plugineg1.gif"  width="60%" height="60%" />  
 
+A working copy of the plugin could be found [Here](https://github.com/gzhaha/myBase-Plugins/tree/master/plugins#7-setbackgroundimgjs).
+
 ## Future Enhancements of this plugin
-As you already experienced, this plugin is simple and some improvemnet can be done to make this plugin more convenience.  
+As you already experienced, this plugin is simple and some improvemnets can be done to make this plugin more convenience.  
 
 For example:
 
