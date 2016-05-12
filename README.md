@@ -11,4 +11,4 @@ You can find more information about myBase 7.x in [myBase Website](http://www.wj
 
 ## How-to:  
 * [Write a myBase 7.x Plugin in 4 Steps](https://github.com/gzhaha/myBase-Info/blob/master/file/MybasePluginExample1.md) - 更新于2016年5月1日  
-* [Running 32bit myBase 7.x in Ubuntu 15.04 64bit desktop](https://github.com/gzhaha/myBase-Info/blob/master/file/Mybaseubuntu64.md) - 更新于2016年05月12日  
+* [Running myBase 7.x in 64bit Linux systems](https://github.com/gzhaha/myBase-Info/blob/master/file/Mybaseubuntu64.md) - 更新于2016年05月12日  

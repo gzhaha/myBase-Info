@@ -1,8 +1,8 @@
 #Running myBase 7.x in 64bit Linux
 
 ##Note:
-**myBase 7 64bit version for Linux** is provided for download via the official website.  
-<br />
+**myBase 7 64bit version for Linux** is provided for download via below official website.  
+
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
 
