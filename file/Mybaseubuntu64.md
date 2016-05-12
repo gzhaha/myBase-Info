@@ -6,11 +6,14 @@
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
 
-After testing, the latest version of myBase could be run directly by click **myBase.run** in **Linux Mint 17.3 Cinnamon 64bit.**.
+After testing, the latest version of myBase could be run directly by  
+
+* click **myBase.run** in **Linux Mint 17.3 Cinnamon 64bit.**.  
+* run ./myBase.run via Terminal in **Ubuntu 16.04 Desktop amd64**
 
 ##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
 
-**The information in this section may be obsolete.** 
+**The information in this section is obsolete.** 
 
 If you still prefer to use 32bit myBase 7 in 64bit Linux system, based on the [Online Manual](http://www.wjjsoft.com/mybase_v7_docs.html#H3_3665) the 32-bit library need to be installed properly.
 
