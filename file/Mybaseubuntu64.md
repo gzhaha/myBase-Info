@@ -33,7 +33,7 @@ After testing, the latest version of myBase could be run directly in
 
 ##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
 
-**The information in this section is obsolete.** 
+**The information in this section is obsolete as there is no need to install ia32-libs for running myBase now.** 
 
 If you still prefer to use 32bit myBase 7 in 64bit Linux system, based on the [Online Manual](http://www.wjjsoft.com/mybase_v7_docs.html#H3_3665) the 32-bit library need to be installed properly.
 
