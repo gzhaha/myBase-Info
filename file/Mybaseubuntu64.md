@@ -21,13 +21,13 @@ After testing, the latest version of myBase could be run directly in
 
 ###CentOS 7 x86_64 1511
 * run **./myBase.run** via Terminal  
-	> If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
-	> Run command `sudo yum install libpng12` in terminal first   
+  > If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
+  > Run command `sudo yum install libpng12` in terminal first   
 	
 ###Fedora Workstation x86_64 23
 * run **./myBase.run** via Terminal  
-	> If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
-	> Run command `sudo yum install libpng12` in terminal first   
+  > If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
+  > Run command `sudo yum install libpng12` in terminal first   
 
 ##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
 
