@@ -6,10 +6,33 @@
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
 
-After testing, the latest version of myBase could be run directly by  
+After testing, the latest version of myBase could be run directly in  
 
-* click **myBase.run** in **Linux Mint 17.3 Cinnamon 64bit.**.  
-* run ./myBase.run via Terminal in **Ubuntu 16.04 Desktop amd64**
+###Linux Mint 17.3 Cinnamon 64bit
+* click **myBase.run** or
+* run **./myBase.run** via Terminal
+
+###Debian 8.4.0 amd64 Cinnamon Desktop
+* click **myBase.run** or
+* run **./myBase.run** via Terminal
+
+###Ubuntu 16.04 Desktop amd64
+* run **./myBase.run** via Terminal
+
+###CentOS 7 x86_64 1511
+* run **./myBase.run** via Terminal  
+	> If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
+	> Run below command in terminal first:  
+	>```
+	sudo yum install libpng12  
+	```
+###Fedora Workstation x86_64 23
+* run **./myBase.run** via Terminal  
+	> If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
+	> Run below command in terminal first:  
+	>```
+	sudo yum install libpng12  
+	```
 
 ##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
 
