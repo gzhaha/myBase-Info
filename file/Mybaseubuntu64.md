@@ -25,7 +25,8 @@ After testing, the latest version of myBase could be run directly in
 	> Run below command in terminal first:  
 	>```
 	sudo yum install libpng12  
-	```
+	```  
+	
 ###Fedora Workstation x86_64 23
 * run **./myBase.run** via Terminal  
 	> If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
