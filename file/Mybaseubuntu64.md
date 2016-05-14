@@ -1,7 +1,7 @@
-#Running myBase 7.x in 64bit Linux
+#Run myBase 7.x in 64bit Linux
 
 ##Note:
-**myBase 7 64bit version for Linux** is provided for download via below official website.  
+**myBase 7.x 64bit version for Linux** is provided for download via below official website.  
 
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
@@ -32,6 +32,8 @@ After testing, the latest version of myBase could be run directly in
   > Run command `sudo yum install libpng12` in terminal first   
 
 ##The process to install ia32-libs in Ubuntu 15.04 desktop amd64
+
+**<u>Note:</u>**
 
 **The information in this section is obsolete as there is no need to install ia32-libs for running myBase now.** 
 
