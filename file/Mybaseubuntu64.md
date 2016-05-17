@@ -19,6 +19,11 @@ After testing in below six Linux distrbutions, the latest version of myBase coul
 ### Ubuntu 16.04 Desktop amd64
 * run **./myBase.run** via Terminal
 
+### Kubuntu 16.04 Desktop amd64
+* click **myBase** or
+* click **myBase.run** or
+* run **./myBase.run** via Terminal
+
 ### CentOS 7 x86_64 1511
 * run **./myBase.run** via Terminal  
 
