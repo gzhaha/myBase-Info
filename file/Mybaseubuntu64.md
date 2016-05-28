@@ -1,12 +1,11 @@
 #Run myBase 7.x in 64bit Linux
 
-**<u>Note:</u>**  
-**myBase 7.x 64bit version for Linux** is provided for download via below official website.  
+**<u>Note:</u>** **myBase 7.x 64bit version for Linux** is provided for download via below official website.  
 
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
 
-After testing in below six Linux distrbutions, the latest version of myBase could be run in  
+After quick tests, the latest version of myBase v7 Beta 22 can be run in below eight Linux distributions. Please note, due to OS availability, I am not able to test on other Linux distributions.
 
 ### Linux Mint 17.3 Cinnamon 64bit
 * click **myBase.run** or
@@ -29,7 +28,7 @@ After testing in below six Linux distrbutions, the latest version of myBase coul
 
   > If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
   > Run command `sudo yum install libpng12` in terminal first   
-	
+
 ###Fedora Workstation x86_64 23
 * run **./myBase.run** via Terminal  
 
@@ -46,4 +45,3 @@ After testing in below six Linux distrbutions, the latest version of myBase coul
   > If you hit the error message "myBase: error while loading shared libraries: libpng12.so.0: cannot open shared object file: No such file or directory"  
   > Run command `sudo zypper in libpng12-0` in terminal first  
 
-  
