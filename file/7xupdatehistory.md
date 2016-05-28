@@ -25,7 +25,7 @@
 
 5. Improvement: the context menu on database tabs with commands: New database, Open database, Close database, Close all databases, Close other databases  
    增强：在数据库标签右键菜单添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】  
-   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="50%" height="50%" />
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="40%" height="40%" />
 
 6. Improvement: an option to customize color of user interface; Select the View - Options menu item then pick a color for the user interface  
    增强：在选【查看 - 选项】增加【自定义界面颜色】  
@@ -33,7 +33,7 @@
 
 7. Improvement: an option to customize color for database tabs; Right-click on the database Tabs and select 'Tab color' menu item  
    增强：在数据库标签右键菜单添加【库标签颜色】  
-   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="50%" height="50%" />
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="40%" height="40%" />
 
 8. Improvement: the integrated text viewer/editor comes with some more options/utilities, such as word-wrap, copy to clipboard, etc; and supports find-as-you-type, an option to keep and restore the font size; and a bugfix to replacements in text with empty string  
    增强：集成的文本编辑器加入了更多功能，例如换行，复制等，还支持输入即搜索的功能，另外本框中字体大小将被保留。
@@ -72,7 +72,8 @@
     增强：在大纲中Ctlr+C会复制信息条目标题
 
 20. Improvement: clicking on the attachment indicator icon opens the attachment pane  
-    增强：点击附件指示图标将打开附件栏
+    增强：点击附件指示图标将打开附件栏  
+    <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_145005.png"  width="40%" height="40%" />
 
 21. Improvement: within the HTML editor, the scrollbar position can be restored when switching info items back  
     增强：在使用HTML编辑器后能返回信息条目之前的位置
@@ -90,7 +91,8 @@
     增强：复制HTML内容时对相应图片复制的增强
 
 26. Improvement: in the advanced search form, the Search button supports a popup menu, which gives some more options, and a list of recent searches, so you have the convenience of quickly running recnet queries without having to re-fill out the search form  
-    增强：高级搜索中，【搜索】按钮加入更多选择和功能
+    增强：高级搜索中，【搜索】按钮加入更多选择和功能  
+    <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_145124.png"  width="40%" height="40%" />
 
 27. Improvement: in the search results pane, clicking on the title text displays a popup menu, which lists the recent searches, clicking on the recent searches, it simply lists out the correcsponding results, so you have the conveneice of reviewing the recent search results without having to re-perform the searches  
     增强：在搜索结果面板可以查看之前的搜索
