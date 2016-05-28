@@ -20,10 +20,12 @@
    插件：增加【文件 - 维护 - Apply relative path variables】
 
 4. Improvement: the option to determine if the default HTML content should go into edit mode when opening the info item, and another option to determine if attached HTML documents should go into edit mode when opening the documents inplace; By default, the item's default HTML content goes into edit mode when opening, so you can edit the content in the HTML editor without having to manually toggle edit mode; whereas attached HTML documents should stay in readonly mode to prevent accidental modifcations, as they're usually contents captured from the web or imported from file system, no editings are required in most of cases; If in the case that you'd want to make changes to a few HTML documents, first open the documents and then right-click in the HTML editor and select 'Edit/rename' menu item to make it editable; If this is not the case and you'd like to change the default behaviour, open the 'Options' dialog box and select the check boxes under the 'Content' tab;  
-   增强：在【选项 - 内容】里添加【打开缺省HTML内容时自动进入编辑状态】和【打开HTML附件文档时自动进入编辑状态】选项
+   增强：在【选项 - 内容】里添加【打开缺省HTML内容时自动进入编辑状态】和【打开HTML附件文档时自动进入编辑状态】选项  
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143455.png"  width="70%" height="70%" />
 
 5. Improvement: the context menu on database tabs with commands: New database, Open database, Close database, Close all databases, Close other databases  
-   增强：在数据库标签添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】
+   增强：在数据库标签右键菜单添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】  
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="70%" height="70%" />
 
 6. Improvement: an option to customize color of user interface; Select the View - Options menu item then pick a color for the user interface  
    增强：在选【查看 - 选项】增加【自定义界面颜色】
@@ -391,7 +393,6 @@
 
 21. Enhancement: auto-load image gallery for info items that only contain image (jpg/png/gif/bmp) attachments  
     增强：自动加载并显示附件图片
-    <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2015-08-11_220857.png"  width="95%" height="95%" />
 
 22. Enhancement: Attempts to download linked images via http when copying HTML content from web browsers  
     增强：当从网页复制内容时，尝试下载链接图片
