@@ -8,7 +8,7 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
-## Version 7.0.0 Beta-23（正在开发中）
+## Version 7.0.0 Beta-23
 
 1. Added: the 'Relative path variables' feature  
    增加：相对路径变量功能
@@ -19,76 +19,142 @@
 3. Plugin: File - Maintenance - Apply relative path variables, which searches the current database for hyperlinks and shortcuts and attempts to apply relative path variables if applicable; This could be useful if you have previously inserted a lot of hyperlinks and/or shortcuts before this release.  
    插件：增加【文件 - 维护 - Apply relative path variables】
 
-4. Added: the option to determine if the default HTML content should go into edit mode when opening the info item, and another option to determine if attached HTML documents should go into edit mode when opening the documents inplace;  
-   增加：在【选项 - 内容】里添加【打开缺省HTML内容时自动进入编辑状态】和【打开HTML附件文档时自动进入编辑状态】选项
+4. Improvement: the option to determine if the default HTML content should go into edit mode when opening the info item, and another option to determine if attached HTML documents should go into edit mode when opening the documents inplace; By default, the item's default HTML content goes into edit mode when opening, so you can edit the content in the HTML editor without having to manually toggle edit mode; whereas attached HTML documents should stay in readonly mode to prevent accidental modifcations, as they're usually contents captured from the web or imported from file system, no editings are required in most of cases; If in the case that you'd want to make changes to a few HTML documents, first open the documents and then right-click in the HTML editor and select 'Edit/rename' menu item to make it editable; If this is not the case and you'd like to change the default behaviour, open the 'Options' dialog box and select the check boxes under the 'Content' tab;  
+   增强：在【选项 - 内容】里添加【打开缺省HTML内容时自动进入编辑状态】和【打开HTML附件文档时自动进入编辑状态】选项
 
-5. added: the context menu on database tabs with commands: New database, Open database, Close database, Close all databases, Close other databases  
-   增加：在数据库标签添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】
+5. Improvement: the context menu on database tabs with commands: New database, Open database, Close database, Close all databases, Close other databases  
+   增强：在数据库标签添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】
 
-6. added: an option to customize color for database tabs; Right-click on the database Tabs and select 'Tab color' menu item  
-   增加：在数据库标签添加【库标签颜色】
+6. Improvement: an option to customize color of user interface; Select the View - Options menu item then pick a color for the user interface  
+   增强：在选【查看 - 选项】增加【自定义界面颜色】
 
-7. added: an option to keep and restore the font size for the text box window used for displaying text from with in plugins  
-   增加：被插件调用的文本框中字体大小将被保留。
+7. Improvement: an option to customize color for database tabs; Right-click on the database Tabs and select 'Tab color' menu item  
+   增强：在数据库标签添加【库标签颜色】
 
-8. Improvement: syntax-highlight: added MathLib keywords, constants and function calls; MathLib .m source files will also be rendered by syntax-highlighting when opening inplace, with a solution to resolve conflicts of .m suffix between objective-c and mathlib by detection of characteristic tags and syntax  
+8. Improvement: the integrated text viewer/editor comes with some more options/utilities, such as word-wrap, copy to clipboard, etc; and supports find-as-you-type, an option to keep and restore the font size; and a bugfix to replacements in text with empty string  
+   增强：集成的文本编辑器加入了更多功能，例如换行，复制等，还支持输入即搜索的功能，另外本框中字体大小将被保留。
+
+9. Improvement: syntax-highlight: added MathLib keywords, constants and function calls; MathLib .m source files will also be rendered by syntax-highlighting when opening inplace, with a solution to resolve conflicts of .m suffix between objective-c and mathlib by detection of characteristic tags and syntax  
    增强：【源程序语法加亮】加入MathLib支持
 
-9. Improvement: ability to change the database tab position by dragging-and-dropping the tabs  
-   增强：数据库标签可进行拖拉移动
+10. Improvement: ability to change the database tab position by dragging-and-dropping the tabs  
+    增强：数据库标签可进行拖拉移动位置
 
-10. Improvement: ability to jump to the position/paragraph inside the document last visited when jumping back and forth between info items; Surely you can also define a bookmark to permanently save the position in the database  
+11. Improvement: ability to jump to the position/paragraph inside the document last visited when jumping back and forth between info items; Surely you can also define a bookmark to permanently save the position in the database  
     增强：跳转到另外的条目后可以返回之前的条目位置
 
-11. Improvement: keep focus in search results pane so you can select items by using the keyboard, and press Enter/Space to trigger the currenly selected item  
+12. Improvement: keep focus in search results pane so you can select items by using the keyboard, and press Enter/Space to trigger the currenly selected item  
     增强：焦点在搜索结果窗口，便于使用键盘上下选择和打开条目。
 
-12. Improvement: Capture - Import directory tree: for HTML documents, it also tries to import linked images from the accompanying sub folder (e.g. ./xxx_files), and skip the accompanying sub folder when recursively running into sub directories;In addition, a bugfix to the javascript date/time garbage characters, and improvements with hyperlinks imported and formatted as HTML table  
+13. Improvement: Capture - Import directory tree: for HTML documents, it also tries to import linked images from the accompanying sub folder (e.g. ./xxx_files), and skip the accompanying sub folder when recursively running into sub directories;In addition, a bugfix to the javascript date/time garbage characters, and improvements with hyperlinks imported and formatted as HTML table  
     增强：【导入 - 导入磁盘目录树】，对于HTML文档，会尝试在相应子目录导入链接中的图片。另外对于链接和表格的导入也做了改进。
 
-13. Improvement: Share - Export directory tree: it also handles shortcuts and file:// hyperlinks, and original documents linked with HTML contents if present will be copied into the target directory  
+14. Improvement: Share - Export directory tree: it also handles shortcuts and file:// hyperlinks, and original documents linked with HTML contents if present will be copied into the target directory  
     增强：【导出 - 导出磁盘目录树】增加对快捷方式和file://超链接的处理。
 
-14. Improvement: press Enter/Space to trigger items from the saved searches list  
+15. Improvement: Capture - Import MS-Word documents: a smart way to imports accompanying images if any  
+    增强：【导入 - 导入MS-Word文档】会使用更加智能的方法导入相关的图片。
+
+16. Improvement: press Enter/Space to trigger items from the saved searches list  
     增强：【搜索 - 已存搜索项】中按回车/空格即进行搜索
 
-15. Improvement: Share - Export CHM project: automatically decode embedded image data (BASE64) and save as image files, so the images can be viewed normally in CHM digital books without having to upgrade to the latest version of IE web browser  
+17. Improvement: Share - Export CHM project: automatically decode embedded image data (BASE64) and save as image files, so the images can be viewed normally in CHM digital books without having to upgrade to the latest version of IE web browser  
     增强：【导出 - 导出CHM项目文件】将自动把以BASE64格式嵌入HTML的图片解码
 
-16. Improvement: Organize - Display statistics: it also gives the current item's location text and ssg-path info  
+18. Improvement: Organize - Display statistics: it also gives the current item's location text and ssg-path info  
     增强：【整理 - 显示条目统计】中会包含当前条目的位置信息和ssg路径信息
 
-17. Improvement: with in the outline view, press Ctlr+C to copy the selected item titles  
+19. Improvement: with in the outline view, press Ctlr+C to copy the selected item titles  
     增强：在大纲中Ctlr+C会复制信息条目标题
 
-18. Bugfix: URLs with percent encoding not correctly decoded while indexing/searching  
+20. Improvement: clicking on the attachment indicator icon opens the attachment pane  
+    增强：点击附件指示图标将打开附件栏
+
+21. Improvement: within the HTML editor, the scrollbar position can be restored when switching info items back  
+    增强：在使用HTML编辑器后能返回信息条目之前的位置
+
+22. Improvement: Add attachments: for local HTML documents, it now imports accompanying images as attachments and alter image links accordingly to point to the attachments  
+    增强：【导入 - 导入文档作为子项】当导入本地HTML文档时会同时导入图片附件并主动改变HTML中图片文档的指向。
+
+23. Improvement: within the content header bar, a popup menu is displayed when clicking on the item title, to indicate the item's location info   
+    增强：在条目内容上方加入按钮可以查看当前条目的位置
+
+24. Improvement: Copy link location: it copies the current URL text as well as a snippet of HTML containing the hyperlink, so it can be pasted as a hyperlink in other documents  
+    增强：【复制链接】功能的增强
+
+25. Improvement: Copy (Ctrl+C or Command+C) now copies full HTML contents with accompanying images (if any) cached in a temporary folder, so you can paste the HTML contents in other documents without losing images; The cached images in temporary folder will be cleared at next copy operation, and the last one is automatically cleared at exit  
+    增强：复制HTML内容时对相应图片复制的增强
+
+26. Improvement: in the advanced search form, the Search button supports a popup menu, which gives some more options, and a list of recent searches, so you have the convenience of quickly running recnet queries without having to re-fill out the search form  
+    增强：高级搜索中，【搜索】按钮加入更多选择和功能
+
+27. Improvement: in the search results pane, clicking on the title text displays a popup menu, which lists the recent searches, clicking on the recent searches, it simply lists out the correcsponding results, so you have the conveneice of reviewing the recent search results without having to re-perform the searches  
+    增强：在搜索结果面板可以查看之前的搜索
+
+28. Improvement: when pasting plain text in the HTML editor, a string of blank spaces with the custom Tab width substitutes for the '\t' character  
+    增强：粘贴文本到HTML编辑器中对空格的处理
+
+29. Improvement: in the advanced search form, added a checkbox for labels, and added the Search in results option, which allows to do a further search in the previous results list  
+    增强：高级搜索中增加【搜索上次结果】和对标签搜索的改进
+
+30. Improvement: faster performance on searcing for partial words, it only searches the entries in range, instead of going through all entries in the database  
+    增强：优化和加快【查找不完整单词】的性能
+
+31. Improvement: an option to determine if or not to show a decorative frame surrounding the associated calendar date within the outline view  
+    增强：【查看 - 选项 - 大纲】中增加【画上装饰方框】
+
+32. Bugfix: URLs with percent encoding not correctly decoded while indexing/searching  
     修正：使用%号编码的URLs在索引/搜索中不正确解码的问题
 
-19. Bugfix: Edit - Find/replace not working with empty strings  
+33. Bugfix: Edit - Find/replace not working with empty strings  
     修正：【编辑 - 查找/替换】中空白字符无效的问题
 
-20. Bugfix: pasting HTML content from Chrome web browser makes redundant  tags as a complete html frame was copied in addition to the selected contents  
+34. Bugfix: pasting HTML content from Chrome web browser makes redundant  tags as a complete html frame was copied in addition to the selected contents  
     修正：从Chrome浏览器中复制后，粘贴内容中包含多余HTML标签的问题。
 
-21. Bugfix: Capture - Import files as child items, it may fail to import accompanying images in sub-directories containing special characters  
+35. Bugfix: Capture - Import files as child items, it may fail to import accompanying images in sub-directories containing special characters  
     修正：【导入 - 导入文档作为子项】中如果图片所在文件夹含有特殊符号导致导入失败的问题
 
-22. Bugfix: certain dialog boxes not activated when a secondary dialog box exits; This usually happened after picking files or folders  
+36. Bugfix: certain dialog boxes not activated when a secondary dialog box exits; This usually happened after picking files or folders  
     修正：某些情况下对话框显示的问题
 
-23. Bugfix: Copy link address not working on Mac  
+37. Bugfix: Copy link address not working on Mac  
     修正：Mac中复制链接的问题
 
-24. Bugfix: in the Undelete items dialog box, the 'trash' icon not shown correctly in the description  
+38. Bugfix: in the Undelete items dialog box, the 'trash' icon not shown correctly in the description  
     修正：恢复删除项中trash图标显示不正确的问题
 
-25. Bugfix: current changes in HTML editor not precedingly saved before performing export-sepcific operations; Almost all exporting plugins grab data from storage instead of the view components  
-    修正：
+39. Bugfix: current changes in HTML editor not precedingly saved before performing export-sepcific operations; Note that almost all exporting plugins retrieve data from the database storage instead of current views  
+    修正：在进行导出操作前，当前改变未被保存的问题。
 
-26. JSAPI: CByteArray::percentEncode(), percentDecode(), saveToFile(), CLocalFile::writeBytes(), platform.formatDateTime(), CNyfDb::applyRelativePath(), evalRelativePath(), makeFileLinkWithRelativePath()  
+40. Bugfix: Share - Export CHM/HtmlTree: attempts to get rid of scripts from HTML contents in case of conflicts and incompatibility  
+    修正：【导出 - 导出CHM项目文件/导出树形大纲页面】在有冲突发生的时候将删除html内的脚本
+
+41. Bugfix: _CLocalFile::launch() not working on Mac/Linux  
+    修正：`_CLocalFile::launch()`在Mac/Linux无效的问题
+
+42. Bugfix: failure loading unicode text files encoded in UTF-16LE/BE and UTF-32LE/BE；  
+    修正：不能正确载入UTF-16LE/BE和UTF-32LE/BE编码文本的问题
+
+43. Bugfix: pressing ESC unexpectedly closes the results or relation pane when it closes a dialog box;  
+    修正：按ESC引起的对话框关闭的问题
+
+44. Bugfix: Capture - Import contents as HTML (MS-Word, files, etc): tries to keep date last-modified as original, even though the HTML source is altered for image embedding  
+    修正：【导入 - 导入文档作为子项】近可能保留源文件的原貌
+
+45. Bugfix: the size hint of item titles within the tag results list is incorreclty calculated with a customized UI font size  
+    修正：标签视图下信息条目名称显示的问题
+
+46. JSAPI: CByteArray::percentEncode(), percentDecode(), saveToFile(), CLocalFile::writeBytes(), platform.formatDateTime(), CNyfDb::applyRelativePath(), evalRelativePath(), makeFileLinkWithRelativePath()  
     JSAPI：更新如下JSAPI`CByteArray::percentEncode(), percentDecode(), saveToFile(), CLocalFile::writeBytes(), platform.formatDateTime(), CNyfDb::applyRelativePath(), evalRelativePath(), makeFileLinkWithRelativePath()`
 
-27. Minor fixes/tweaks/changes  
+47. JSAPI: CLocalFile::saveText(str, codec); for saving text in UTF8/16/32 or any other supported charset/MiB  
+    JSAPI：`CLocalFile::saveText(str, codec)`可以用UTF8/16/32或其他支持的编码保存文本。
+
+48. JSAPI: added plugin.deferDeleteFile() and platform.deferDeleteFile(), to schedule temporary file deletions; The former schedules a file deletion at the plugin completes, while the rear at the application exits  
+    JSAPI：增加`plugin.deferDeleteFile()`和`platform.deferDeleteFile()`
+
+49. Minor fixes/tweaks/changes  
     其他小修正，调整和更新
 
     ​
