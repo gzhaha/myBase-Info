@@ -5,7 +5,7 @@
 > [English Version](http://www.wjjsoft.com/download.html)  
 > [中文版](http://www.wjjsoft.com/mybase_cn.html#download)  
 
-After quick tests, the latest version of myBase v7 Beta 22 can be run in below eight Linux distributions. Please note, due to OS availability, I am not able to test on other Linux distributions.
+After quick tests, the latest version of myBase v7 Beta 22 can be run in below eight Linux distributions. Please note, due to OS availability, I am able to test on the following Linux distributions only.
 
 ### Linux Mint 17.3 Cinnamon 64bit
 * click **myBase.run** or
