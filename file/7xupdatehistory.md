@@ -25,13 +25,15 @@
 
 5. Improvement: the context menu on database tabs with commands: New database, Open database, Close database, Close all databases, Close other databases  
    增强：在数据库标签右键菜单添加【创建数据库】，【打开数据库】，【关闭】，【关闭全部】和【关闭其他】  
-   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="70%" height="70%" />
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="50%" height="50%" />
 
 6. Improvement: an option to customize color of user interface; Select the View - Options menu item then pick a color for the user interface  
-   增强：在选【查看 - 选项】增加【自定义界面颜色】
+   增强：在选【查看 - 选项】增加【自定义界面颜色】  
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_144257.png"  width="70%" height="70%" />
 
 7. Improvement: an option to customize color for database tabs; Right-click on the database Tabs and select 'Tab color' menu item  
-   增强：在数据库标签添加【库标签颜色】
+   增强：在数据库标签右键菜单添加【库标签颜色】  
+   <img src="https://raw.githubusercontent.com/gzhaha/myBase-Info/master/images/2016-05-28_143754.png"  width="50%" height="50%" />
 
 8. Improvement: the integrated text viewer/editor comes with some more options/utilities, such as word-wrap, copy to clipboard, etc; and supports find-as-you-type, an option to keep and restore the font size; and a bugfix to replacements in text with empty string  
    增强：集成的文本编辑器加入了更多功能，例如换行，复制等，还支持输入即搜索的功能，另外本框中字体大小将被保留。
