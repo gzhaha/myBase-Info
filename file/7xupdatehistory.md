@@ -67,7 +67,7 @@
 19. Improvement: localization of common color names  
    增强：颜色名字本地化
 
-20. Improvement: insert html table with inline CSS properties, in case that CSS are absent in the document's <style> section  
+20. Improvement: insert html table with inline CSS properties, in case that CSS are absent in the document's [style]section  
    增强：插入html表格时同时加入CCS属性
 
 21. Improvement: added text encoding in the HTML editor's context menu, for loading contents with a specified encoding type; maybe useful to resolve garbage characters  
