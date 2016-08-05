@@ -8,6 +8,117 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
+## Version 7.0.0 Beta-24
+
+1. Improvement: in the search/tag results list, keyboard navigation is now enabled, the Up/Down arrow key moves the current selection, and the Enter/Space key triggers the currently selected result item  
+   增强：搜索结果支持键盘操作
+
+2. Improvement: on the content header bar, an advanced location bar is added, which displays location of the current content and allows to navigate through child/sibling items by using dropdown menus; The advanced location bar can be disabled from in the Options dialog box  
+   增强：加入“显示条目位置信息栏”选项，【查看 - 选项 - 内容】
+
+3. Improvement: for consistency of contents of attachments externally opened, any changes made to the attachments within external applications will be actively captured and imported into the database. And pressing the Save button attempts to capture external changes again (if changed since last capture) in case of failure capturing the external changes when the document has the exclusive open mode with external applications. For each successful capture of external changes, that will be saved as a new revision and trash the previous revision. If the file has been saved multiple times within external applications, it would produce the same number of revisions within the database  
+   增强：外部打开文件，修改后将被保存到数据库中
+
+4. Improvement: for convenience of making hyperlinks in HTML editor, it tries to detect and extract an url from selected text and initialize the link field with the url in the dialog box  
+   增强：在HTML编辑器中更方便的创建超链接
+
+5. Improvement: auto-detect URL when pasting plain text in the HTML editor  
+   增强：粘贴文本时自动识别URL
+
+6. Improvement: an option to display abstract text or more info in the tooltip window when the mouse cursor hovers over outline items, attachments and results  
+   增强：大纲，附件和搜索结果的“提示内容摘要”功能
+
+7. Improvement: in the tag results pane, allows to drag info items and drop on label tree view to make associations with labels  
+   增强：在标签搜索结果可以直接通过拖动节点赋予标签
+
+8. Improvement: better performance in multi-selecting and dragging-dropping within outline/labeltree/attachments/results panes  
+   增强：多节点拖拉操作的性能
+
+9. Improvement: auto-scrolling and auto-expanding during drag-drop operations  
+   增强：进行拖拉操作时自动滚屏和自动展开
+
+10. Improvement: highlight hotspot items with a different color than the default selection color during drag-drop operations  
+   增强：进行拖拉操作时以不同的颜色区分
+
+11. Improvement: ability to move multiple selected info items or attachments by dragging-dropping  
+   增强：支持多附件和多节点的移动
+
+12. Improvement: added a confirmation action menu for attachments drag-drop operations  
+   增强：进行附件拖动操作时会有确认窗口
+
+13. Improvement: in the search rseults pane, matched words are highlighted in tooltip  
+   增强：搜索结果显示高亮
+
+14. Improvement: in the advanced search form, the edit box gets focused by default  
+   增强：高级搜索中，默认焦点为输入框
+
+15. Improvement: in the HTML editor, the zoom factor is kept with in the ini file  
+   增强：HTML编辑器中的文字大小设置将被保存到ini文件
+
+16. Improvement: customizable keybaord shortcuts for bookmarks  
+   增强：自定义书签快捷键
+
+17. Improvement: use combo-list for customization of Table CSS  
+   增强：自定义表格CCS使用下拉框的方式
+
+18. Improvement: rewrite of the calendar widget for a new look  
+   增强：日历的样式
+
+19. Improvement: localization of common color names  
+   增强：颜色名字本地化
+
+20. Improvement: insert html table with inline CSS properties, in case that CSS are absent in the document's <style> section  
+   增强：插入html表格时同时加入CCS属性
+
+21. Improvement: added text encoding in the HTML editor's context menu, for loading contents with a specified encoding type; maybe useful to resolve garbage characters  
+   增强：加入【文本编码】菜单
+
+22. Improvement: added http/socks5 proxy server configurations for downloading images  
+   增强：增加使用代理服务器下载图片选项，【查看 - 选项 - 内容】
+
+23. Improvement: added an option to show lines in the labels tree view  
+   增强：增加“显示标签条目的层级连线”选项，【查看 - 选项 - 标签】
+
+24. Plugin: Detect text encoding, which tries to detect and then display the encoding type of a given text file  
+   插件：自动检测文本编码
+
+25. Plugin: View file in hexadecimal, which shows contents of a file in the specified range in the hexadecimal format  
+   插件：增加“查看十六进制文件内容”插件，【工具 - 查看十六进制文件内容】
+
+26. Plugin: Export current content as a .html document, with images embedded into the resulting HTML document in the base64 data format  
+   插件：导出当前内容到HTML文件，如果包含有图片，将会以base64格式嵌入到导出的HTML文件中
+
+27. Plugin: Open current content/attachment externally with associated applications, external changes will be automatically captured and saved into the database  
+   插件：外部打开后所做的修改将会被保存到数据库
+
+28. Bugfix: the & character not shown on menus  
+   修正："&"符号在菜单不显示的问题
+
+29. Bugfix: UTF-8 text files without BOM not working; This fix scans the given character sequence in a file and tries to detect if it is possibly encoded in UTF-8  
+   修正：UTF-8无BOM编码文本不识别的问题
+
+30. Bugfix: the hotkey Ctrl+C (Copy selected HTML contents) not working with embedded images  
+   修正：快捷键Ctrl+C对嵌入图片无效的问题
+
+31. Bugfix: attachments named the '#' character not working; For URLs, the '#' is a special character; it's not recommended to use '#' in any file names especially when the filenames are used/linked with in HTML contents  
+   修正：附件文件名包含'#'无效的问题
+
+32. Bugfix: in the image gallery view, applying label and calendar not working properly  
+   修正：在图片浏览视图下标签和日历无效的问题
+
+33. Bugfix: in Html2Text conversion, &ensp; &emsp; overlooked and may produce garbage characters or question marks on Windows  
+   修正：使用Html2Text导出时产生多余编码的问题
+
+34. Bugfix: workaround to eliminate malformed CSS attributes when copying HTML contents from MS-Word  
+   修正：从MS-Word中复制HTML内容时可能出现的和CCS属性相关的问题
+
+35. Bugfix: during drag operations, the dragging image may overlook 'duplicate' items which have the same titles  
+   修正：在拖动图片时和同名标题图片重合的问题
+
+36. Bugfix: item-links may not work in generated CHM ebooks  
+   修正：条目链接在生成的CHM文档中可能无效的问题
+
+
 ## Version 7.0.0 Beta-23
 
 1. Added: the 'Relative path variables' feature  
