@@ -8,7 +8,7 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
-## Version 7.0.0 Beta-24
+## Version 7.0.0 Beta-25
 
 1. Add-on: new version of Webcollect addon for Google Chrome (Linux, MacOSX, Windows), which allows to capture webpages (or snippets) from Google Chrome and save into the current database; To install the new version Webcollect addon, select the 'Tools - Install Webcollect Host for Chrome' menu item, then proceed to [Google Chrome WebStore](https://chrome.google.com/webstore/detail/mybasewebcollect/oelfkekhpcninmpedocgakolepcflfko) and add Webcollect addon to your Chrome web browser; Once the installation completes, you will find the 'Save with myBase 7.x' menu item when right-clicking on a webpage. By default, it tries to save entire webpages; In order to save a portion of a webpage, try to first highlight the portion; Note that the new version webcollect is now available for Linux, MacOSX and Windows, and works with myBase 7.0 Beta-25 or later, but not compatible with earlier versions of myBase, since Google Chrome 45+ removed the NPAPI interface, and old versions of myBase have no idea of how the new Webcollect transmits web contents.  
    插件：升级Google Chrome（Linux, MacOSX， Windows）浏览器Webcollect插件（仅适用于myBase 7.0 Beta-25和之后的版本）。
