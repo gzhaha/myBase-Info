@@ -10,6 +10,36 @@
 
 ## Version 7.0.0 Beta-24
 
+1. Add-on: new version of Webcollect addon for Google Chrome (Linux, MacOSX, Windows), which allows to capture webpages (or snippets) from Google Chrome and save into the current database; To install the new version Webcollect addon, select the 'Tools - Install Webcollect Host for Chrome' menu item, then proceed to Google Chrome WebStore and add Webcollect addon to your Chrome web browser; Once the installation completes, you will find the 'Save with myBase 7.x' menu item when right-clicking on a webpage. By default, it tries to save entire webpages; In order to save a portion of a webpage, try to first highlight the portion; Note that the new version webcollect is now available for Linux, MacOSX and Windows, and works with myBase 7.0 Beta-25 or later, but not compatible with earlier versions of myBase, since Google Chrome 45+ removed the NPAPI interface, and old versions of myBase have no idea of how the new Webcollect transmits web contents.  
+   插件：升级Google Chrome（Linux, MacOSX， Windows）浏览器Webcollect插件（仅适用于myBase 7.0 Beta-25和之后的版本）。
+
+2. Add-on: new version of Webcollect addon for Mozilla Firefox (Linux, MacOSX, Windows), which allows to capture webpages (or snippets) from Mozilla Firefox and save into the current database; To install the new version Webcollect addon, navigate to Firefox AMO and add Webcollect addon to your Firefox web browser; Once the installation completes, you will find the 'Save with myBase 7.x' menu item when right-clicking on webpages. By default, it tries to save entire webpages; In order to save a portion of a webpage, try to first highlight the portion; Note that the new version webcollect is now available for Linux, MacOSX and Windows, and works with myBase 7.0 Beta-25 or later, but not compatible with earlier versions of myBase, as old versions have no idea of how the new Webcollect transmits web contents.  
+   插件：升级Firefox（Linux, MacOSX， Windows）浏览器Webcollect插件（仅适用于myBase 7.0 Beta-25和之后的版本）。
+
+3. Enhancement: added an option to disable the Find-as-you-type feature, so you can press Enter to start searching after typing a find string  
+   增强：增加【查看 - 选项 - 查找 - 即时搜索】选项。
+
+4. Enhancement: in the outline/lable tree view, pressing Left arrow key collapses the current item (branch) if it is expanded, otherwise, jump to its parent item if applicable; And pressing Right arrow key expands the current item (branch) if it has child items and is collapsed  
+   增强：大纲视图和标签视图现在支持使用左右键。
+
+5. Enhancement: drag-and-drop info items to create symlinks under current info items  
+   增强：使用鼠标拖拉操作创建符号链接。
+
+6. Enhancement: added the Find/replace panel under the HTML content area for the convenience of finding/replacing/highlighting text in the HTML editor  
+   增强：html编辑页面中的搜索和替换显示面板。并且搜索会高亮结果。
+
+7. Enhancement: minor tweaks for less confirmation alerts when searching with outdated index data  
+   增强：优化在索引数据过时情况下搜索出现的提示窗口
+
+8. Enhancement: added an option to auto-detect regular expressions with in the Advanced search form and Search as-you-type toolbar; If a search phrase is typed in with a pair of forward-slashes surrounded, and optionally with an lower case 'i' followed, like this: /pattern/ or /pattern/i, it'll be recognized as a RegExp when running the query, the optional lower case 'i' indicates ignoring case when matching text. If you search RegExp with this option disabled, you will need to manually check the 'Regular expressions' radio-button from in the Advanced search form to explicitly set it as RegExp; If the 'Regular expressions' radio-button is checked, the surrounding forward-slashes can be omitted, but one thing, it's nowhere to apply the 'i' option, it by default seaches without case. Generally, it's recommended that you always have the 'Auto-detection of RegExp' option enabled, and type RegExp with a pair of forward-slashes surrounded, this way, searches are case-sensitive, and the 'i' option can be used to ignore case; The 'Auto-detection of RegExp' also take effects with the Search as-you-type toolbar.  
+   增强：在搜索时自动识别正则表达式，通过【查看 - 选项 - 查找 - 自动识别正则表达式】可以激活或关闭这个功能。
+
+9. Minor changes and bugfixes  
+   其他小修正
+
+
+## Version 7.0.0 Beta-24
+
 1. Improvement: in the search/tag results list, keyboard navigation is now enabled, the Up/Down arrow key moves the current selection, and the Enter/Space key triggers the currently selected result item  
    增强：搜索结果支持键盘操作
 
