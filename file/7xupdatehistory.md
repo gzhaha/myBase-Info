@@ -8,6 +8,86 @@
 > 以下仅为个人翻译版，均为个人理解。如对本翻译版本有疑问，请以官网内容为准并自行查阅以上官网相关内容。**  
 > **The below translation is based on my personal understanding, always refer to the official website in case of any confusion.**
 
+## Version 7.0.0 Beta-27
+
+1. Added: new content editors for rich/plain text editings; For each new info items, the default content can be initiailized in either of the 4 document formats (HTML, Rich Text, Plain Text and Markdown); and the HTML editor, Rich text editor and Plain text editor are integrated for inplace editing of item contents; Comparing with the HTML editor handling web contents/layouts well, the rich/plain text editors are more effective and efficient for simple word processing and text editing; The rich/plain text editors also support syntax-highlighting of source code with 20 familiar programming languages supported for now;  
+   增加：新的富文本/文本编辑器。新建信息节点现在支持4种格式，分别是HTML, 富文本, 文本和Markdown。其中富文本, 文本编辑器已集成到信息节点界面，并且富文本, 文本编辑器也支持20种代码高亮功能。
+
+2. Enhancement: efforts on making almost all existing plugins and utilities compatible with the newly added 3 document formats;  
+   增强：升级所有插件以适用于新的信息节点格式
+
+3. Plugin: Edit - Change content type, which allows to change default item content to one of supported formats (HTML, Rich, Plain or Markdown) by selecting an applicable attachment or creating a new document; The old item content (if existing) will be preserved and renamed as an ordinary attachment file;  
+   插件：增加【编辑 - 更改缺省内容格式】插件。
+
+4. Plugin: Share - Export page as image, which helps save the current content as an image file;  
+   插件：增加【导出 - 导出当前内容为图片】
+
+5. Plugin: Share - Export PDF document, which helps save the current content as a PDF document;  
+   插件：增加【导出 - 导出当前内容为PDF文档】
+
+6. Plugin: Tools - Find duplicate files, which helps detect duplicate files in specified disk directories;  
+   插件：增加【工具 - 查找重复文件】
+
+7. Plugin: Tools - Compute file digest, which computes SHA-1/2 hash values of the specified files;  
+   插件：增加【工具 - 计算文件哈希值】
+
+8. Enhancement: added the 'Include sub folders' option in Tools - Compare folders;  
+   增强：【工具 - 文件夹比较】增加【包括所有子文件夹】选项
+
+9. Enhancement: allows to set font name/size and colors for main visual components of UI (e.g. outline tree, label tree and lists having input focus) as well as content editors by using the main tool bar;  
+   增强：无需进入选项即可修改界面相关的字体等属性
+
+10. Enhancement: with in the outline view having input focus, selecting the Font name/size/colors from the main toolbar with the Ctrl or Shift key held down, it applies to the currently selected info items; By default, without Ctrl or Shift key modifiers, it changes the default display of outline tree;  
+   增强：直接修改大纲视图中信息节点的字体等属性
+
+11. Enhancement: allows to set custom style for individual info items by using user-defined stylesheets;  
+   增强：允许使用自定义stylesheets
+
+12. Enhancement: allows to keep the last visited items in the config file and restore the history menu at next open;  
+   增强：保存最后打开文件的相关信息
+
+13. Enhancement: allows to change font name/size/colors for currently focused views/panes simply by using the main toolbar, without having to open the Preference/Options dialog box;  
+   增强：无需进入选项即可修改相关的字体等属性
+
+14. JSAPI: new plugin APIs: plugin.openDb(), plugin.closeDb(), CCanvas::renderHtml(), CLocalFile.digest(), CByteArray.digest();  
+   JSAPI：增加新的API：plugin.openDb(), plugin.closeDb(), CCanvas::renderHtml(), CLocalFile.digest(), CByteArray.digest(); 
+
+15. Bugfix: on Mac, the applied labels on the content header bar may flicker while typing in the HTML editor;  
+   修正：Mac版本中HTML编辑器的问题
+
+16. Bugfix: on Mac, the shortcut key Command+delete is implicitly pre-defined by WebKit as the Go Back command, that can cause the current contents to suddenly disappear in the HTML editor;  
+   修正：Mac版本中Command+delete快捷键的问题
+
+17. Bugfix: on Windows, it may crash on saving huge HTML contents with length of 80MiB+ in a single document; Avoid inputing 80+MiB in a single HTML document;  
+   修正：Windows版本中保存HTML文件超过80M的问题
+
+18. Bugfix: hyperlinks to bookmarks inside the same document not working after exported; Applies to Share - Export HTML Tree & Export HTML content;  
+   修正：【分享 - 导出树形大纲页面】中超链接的问题
+
+19. Minor changes;  
+   其他小修正
+
+
+## Version 7.0.0 Beta-26
+
+1. Enhancement: more extensive and sophisticated syntax highlighting feature integrated. No matter whether source code are inserted as snippets in text contents, or inserted as attachments, they will be automatically highlighted when opening. Currently 168 programming languages and 80 styles are supported. Plus, source code snippets embedded in Markdown .md attachments will also be highlighted automatically when opening. With in the Options - Content dialog box, there're 80 different styles available to choose for render source code snippets; Tab characters in source code will be replaced with a series of blank spaces; You can customize Tab width in the Options - Edit dialog box 
+   增强：代码渲染功能完善，并提供80种风格
+
+2. Plugin: Edit - Insert code block: which allows to insert a code block into the current text content; Source code contained in the code block will be automatically syntax-highlighted in the language you specify 
+   插件：增加【编辑 - 插入代码块】
+
+3. Added: an option to enable mouse wheel for content area to zoom in/out. Use Ctrl+Wheel on Windows and Linux, Command+Wheel on Mac 
+   增加：在选项中增加【启用鼠标滚轮缩放内容视图】
+
+4. Added: a prompt window to confirm whether to discard changes when pressing Esc with in the 'Edit plain text' window 
+   增加：在【编辑文本】窗口按ESC时提示是否忽略以修改内容
+
+5. Bugfix: it may crash on Pasting special with no RTF contents available in clipboard  
+   修正：从剪贴板粘贴非富文本时的问题
+
+6. Minor changes;  
+   其他小修正
+
 ## Version 7.0.0 Beta-25
 
 1. Add-on: new version of Webcollect addon for Google Chrome (Linux, MacOSX, Windows), which allows to capture webpages (or snippets) from Google Chrome and save into the current database; To install the new version Webcollect addon, select the 'Tools - Install Webcollect Host for Chrome' menu item, then proceed to [Google Chrome WebStore](https://chrome.google.com/webstore/detail/mybasewebcollect/oelfkekhpcninmpedocgakolepcflfko) and add Webcollect addon to your Chrome web browser; Once the installation completes, you will find the 'Save with myBase 7.x' menu item when right-clicking on a webpage. By default, it tries to save entire webpages; In order to save a portion of a webpage, try to first highlight the portion; Note that the new version webcollect is now available for Linux, MacOSX and Windows, and works with myBase 7.0 Beta-25 or later, but not compatible with earlier versions of myBase, since Google Chrome 45+ removed the NPAPI interface, and old versions of myBase have no idea of how the new Webcollect transmits web contents.  
